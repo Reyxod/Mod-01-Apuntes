@@ -21,4 +21,5 @@
 
 ##### Link Moodle: https://moodle.escoladeltreball.org/course/view.php?id=791
 
-![TITAN X](img/TITAN_X.png)  
+![TITAN X](/home/users/inf/hism1/ism46426572/Documents/Mod-01-Apuntes/img
+/TITAN_X.png)  
