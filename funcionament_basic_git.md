@@ -11,5 +11,5 @@
 
 ### 3. Como recuperar los ficheros del repositorio remoto?
 
-  *
+ * Para recuperar los ficheros del **repositorio remoto** ejecutamos el comando **git pull** dentro del directorio para los archivos del git en el ordenador.  
   
