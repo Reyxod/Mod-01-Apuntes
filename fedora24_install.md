@@ -1,4 +1,4 @@
-#Fedora 24 en KVM  
+#Instal.lació de Fedora 24 en KVM  
 ###David Bautista Banque
 ***
 #### Com descarregar i instal·lar una màquina virtual 
