@@ -1,0 +1,45 @@
+# !/usr/bin/python
+# -*-coding: utf-8-*-
+
+import os
+
+os.system('clear')
+salir = False
+
+while salir == False :
+	
+	try :
+	
+		edad = int(raw_input("Introduce tu edad: "))
+		os.system('clear')
+			
+		if edad < 18 :
+			
+			
+			print "No puedes pasar, enano"
+			salir = True
+
+		if edad >= 18 and edad <= 23 :
+			
+			print "Puedes pasar a la sesion de jovenes"
+			
+			if edad >= 19 and edad <= 21 :
+				
+				print "\nY ademas por tener" ,edad, "te haremos un descuento de 3€"
+				salir = True
+		
+			else :
+				
+				salir = True
+						
+		if edad > 23 :
+			
+			print "Vete de aqui, anciano"
+			salir = True
+	
+	except ValueError :
+		
+		os.system('clear')
+		print "No me pirulees eso no es un numero \n"
+		tecla = raw_input("Pulsa enter para volver a intentar")	
+		os.system('clear')
