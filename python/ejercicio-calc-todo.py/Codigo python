@@ -15,8 +15,8 @@ def suma() :
 		
 		try :
 			
-			numero1 = int(raw_input("Introduce un número: "))
-			numero2 = int(raw_input("Introduce un número: "))
+			numero1 = float(raw_input("Introduce un número: "))
+			numero2 = float(raw_input("Introduce un número: "))
 			entrar = False
 			os.system('clear')
 			
@@ -39,8 +39,8 @@ def resta() :
 		
 		try :
 			
-			numero1 = int(raw_input("Introduce un número: "))
-			numero2 = int(raw_input("Introduce un número: "))
+			numero1 = float(raw_input("Introduce un número: "))
+			numero2 = float(raw_input("Introduce un número: "))
 			entrar = False
 			os.system('clear')
 			
@@ -63,8 +63,8 @@ def multiplicacion() :
 		
 		try :
 			
-			numero1 = int(raw_input("Introduce un número: "))
-			numero2 = int(raw_input("Introduce un número: "))
+			numero1 = float(raw_input("Introduce un número: "))
+			numero2 = float(raw_input("Introduce un número: "))
 			entrar = False
 			os.system('clear')
 			
@@ -87,8 +87,8 @@ def division() :
 		
 		try :
 			
-			numero1 = int(raw_input("Introduce un número: "))
-			numero2 = int(raw_input("Introduce un número: "))
+			numero1 = float(raw_input("Introduce un número: "))
+			numero2 = float(raw_input("Introduce un número: "))
 			
 			if numero2 == 0 :
 				
