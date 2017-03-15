@@ -155,3 +155,4 @@ while salir == False :
 				
 				print "Esta opcion no esta contemplada\n"
 				tecla = raw_input("Pulsa enter para volver a intentar")
+
