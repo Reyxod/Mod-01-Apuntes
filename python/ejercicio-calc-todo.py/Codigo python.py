@@ -89,10 +89,10 @@ def division() :
 			
 			numero1 = float(raw_input("Introduce un número: "))
 			numero2 = float(raw_input("Introduce un número: "))
+			os.system('clear')
 			
 			if numero2 == 0 :
 				
-				os.system('clear')
 				print "No se puede dividir por zero\n"
 				tecla = raw_input("Pulsa enter para volver a intentar")
 				os.system('clear')
@@ -100,7 +100,6 @@ def division() :
 			else :
 				
 				entrar = False
-				os.system('clear')
 			
 		except ValueError :
 			
@@ -120,17 +119,16 @@ while salir == False :
 		os.system('clear')
 		print "Calculadora \n \n1-Sumar \n2-Restar \n3-Multiplicar \n4-Dividir \n5-Salir \n" 
 		opcion = raw_input("Introduce una opcion: ")
+		os.system('clear')
 		
 		if not opcion.isdigit() :
 			
-			os.system('clear')
 			print "No has introducido un numero\n"
 			tecla = raw_input("Pulsa enter para volver a intentar")
 		
 		else :
 			
 			opcion = int(opcion)
-			os.system('clear')
 				
 			if opcion == 1 :
 			
@@ -155,7 +153,5 @@ while salir == False :
 				
 			elif ( opcion < 1 or opcion > 5 ) :
 				
-				salir = False
-				os.system('clear')
 				print "Esta opcion no esta contemplada\n"
 				tecla = raw_input("Pulsa enter para volver a intentar")
