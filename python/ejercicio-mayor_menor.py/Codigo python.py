@@ -13,7 +13,7 @@ while entrar == True :
 		os.system('clear')
 		numero1 = float(raw_input("Introduce el primer número: "))
 		numero2 = float(raw_input("Introduce el segundo número: "))
-		numero3 = float(raw_input("Introduce el segundo número: "))
+		numero3 = float(raw_input("Introduce el tercer número: "))
 		os.system('clear')
 		
 		if ( numero1 == numero2 ) or ( numero1 == numero3 ) or ( numero2 == numero3 ) :
