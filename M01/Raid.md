@@ -1,2 +1,1 @@
-# Sistemas RAID:  
 | Tipos |  |  |  |  | 
