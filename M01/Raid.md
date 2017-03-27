@@ -1,1 +1,2 @@
-| Tipos |  |  |  |  | 
+#Sistemas Raid:  
+Tipos |  |  |  |  | 
