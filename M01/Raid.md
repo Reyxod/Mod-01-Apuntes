@@ -14,7 +14,7 @@
 
 * Para poder hacer un raid en la maquina virtual lo primero que tenemos de hacer es crear los discos duros que necesitaremos para las mismas, dependiendo de que raid queramos crea seran mas o menos. Creamos los dicos en la pertaña de añadir mas hardware y los hacemos tipo Virtio.  
 
-!(virt-manager.png)
+!(/virt-manager.png)
 
 ## 3. Comando para crear una raid 1:  
 
