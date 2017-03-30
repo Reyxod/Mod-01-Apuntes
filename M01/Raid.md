@@ -14,9 +14,11 @@
 
 * Para poder hacer un raid en la maquina virtual lo primero que tenemos de hacer es crear los discos duros que necesitaremos para las mismas, dependiendo de que raid queramos crea seran mas o menos. Creamos los dicos en la pertaña de añadir mas hardware y los hacemos tipo Virtio.  
 
+!(https://github.com/Reyxod/Mod-01-Apuntes/blob/master/M01/Captura%20de%20pantalla%20de%202017-03-30%2013-10-48.png)
+
 ## 3. Comando para crear una raid 1:  
 
-**mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/(*nombre primer disco*) /dev/(*nombre segundo disco*)**  
+**mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/(nombre primer disco) /dev/(nombre segundo disco)**  
 
 ## 4. Comando para crear una raid 5:  
 
