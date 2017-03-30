@@ -7,7 +7,7 @@ os.system('clear')
 
 numero = 1
 salir = False
-turno = 1
+turno = 0
 
 while salir == False :
 	
@@ -31,7 +31,7 @@ while salir == False :
 		turno = turno + 1
 		numero = 0
 		
-	if turno == 3 :
+	if turno == 2 :
 		
 		salir = True
 	
