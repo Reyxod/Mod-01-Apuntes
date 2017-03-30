@@ -1,4 +1,4 @@
-# Sistemas Raid:  
+## 1. Sistemas Raid:  
 
 |   Tipos  | Num. Discos | Num. Fallados | Capacidad |    Read   |   Write   |
 | -------- | ----------- | ------------- | --------- | --------- | --------- |
@@ -10,4 +10,10 @@
 |  Raid 50 |      6      |   1/Raid 5    | 67% - 94% | Excelente | Very good |
 |  Raid 60 |      8      |   2/Raid 6    | 50% - 88% | Very good |    Good   |  
 
-f
+## 2. Como crear raids en Virt-Manager ?  
+
+* Para poder hacer un raid en la maquina virtual lo primero que tenemos de hacer es crear los discos duros que necesitaremos para las mismas, dependiendo de que raid queramos crea seran mas o menos. Creamos los dicos en la pertaña de añadir mas hardware y los hacemos tipo Virtio.  
+
+## 3. Comando para crear una raid 1:  
+
+**mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/(nombre primer disco) /dev/(nombre segundo disco)**
