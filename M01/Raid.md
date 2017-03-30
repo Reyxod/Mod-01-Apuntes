@@ -16,7 +16,7 @@
 
 ## 3. Comando para crear una raid 1:  
 
-**mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/(nombre primer disco) /dev/(nombre segundo disco)**  
+**mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/(*nombre primer disco*) /dev/(*nombre segundo disco*)**  
 
 ## 4. Comando para crear una raid 5:  
 
