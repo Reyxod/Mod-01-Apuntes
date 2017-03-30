@@ -1,0 +1,45 @@
+# !/usr/bin/python
+# -*-coding: utf-8-*-
+
+import os
+
+os.system('clear')
+
+numero = 1
+salir = False
+direccion = raw_input("Introduce una direccion: ")
+
+while salir == False :
+	
+	if numero % 8 == 1 or numero % 8 == 2 :  
+		print numero,"Mover arriba"
+		
+	if numero % 8 == 3 or numero % 8 == 4 :
+		
+		if direccion == "D" : 
+		
+			print numero,"Mover derecha"
+		
+		else :
+			
+			print numero,"Mover izquierda"
+		
+	if numero % 8 == 5 or numero % 8 == 6 :
+		
+		print numero,"Mover abajo"
+		
+	if numero % 8 == 7 or numero % 8 == 0 :
+			
+		if direccion == "D" :
+			
+			print numero,"Mover izquierda"
+		
+		else :
+			
+			print numero,"Mover derecha"
+		
+	if numero == 8 :
+		
+		salir = True
+	
+	numero = numero + 1
