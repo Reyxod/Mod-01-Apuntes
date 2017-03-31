@@ -29,5 +29,5 @@ while salir == False :
 		salir = True
 				
 	numero = numero + 1
-	manorandom1 = lista[random.randrange(3)]
-	manorandom2 = lista[random.randrange(3)]
+	manorandom1 = lista[random.randrange(5)]
+	manorandom2 = lista[random.randrange(5)]
