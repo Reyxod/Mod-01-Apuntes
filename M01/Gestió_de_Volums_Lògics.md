@@ -34,9 +34,17 @@ La gestión de volúmenes lógicos o ***logical volum manager (LVM)*** , es una 
 
 ### Práctica 1:  
 
-1. **Creamos un PV:** `pvcreate /dev/vda`
+1. **Creamos el PV:** `pvcreate /dev/vda`
 2. **Ejecutamos pvs para ver si se ha creado:** `pvs`
 3. **Creamos el VG:** `vgcreate practica1 /dev/vda`
 4. **Ejecutamos vgs para ver si se ha creado:** `vgs`
 5. **Creamos el LV con el 100% de capacidad y el nombre "dades":** `lvcreate -l 100%FREE -n dades practica1`
-6. **Ejecutamos lvs para ver si se ha creado:** `lvs`
+6. **Ejecutamos lvs para ver si se ha creado:** `lvs`  
+
+***
+
+### Práctica 2:
+
+1. **Creamos el sistema de ficheros xfs en el LV dades:** `mkfs.xfs /dev/pracitca1/dades`
+2. **Montamos el sistema de ficheros en el directorio /mnt:** `mount /dev/pracitca1/dades /mnt`
+3. **Creamos un fichero de 180M:** `dd if=/dev/zero of=/mnt/ejemplo.txt bs=1M count=180`
