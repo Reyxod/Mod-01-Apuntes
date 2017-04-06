@@ -37,5 +37,6 @@ La gestión de volúmenes lógicos o ***logical volum manager (LVM)*** , es una 
 1. **Creamos un PV:** `pvcreate /dev/vda`
 2. **Ejecutamos pvs para ver si se ha creado:** `pvs`
 3. **Creamos el VG:** `vgcreate practica1 /dev/vda`
-4. **Ejecutamos vgs para ver si se ha creado: `vgs`
-5. ** 
+4. **Ejecutamos vgs para ver si se ha creado:** `vgs`
+5. **Creamos el LV con el 100% de capacidad y el nombre "dades":** `lvcreate -l 100%FREE -n dades practica1`
+6. **Ejecutamos lvs para ver si se ha creado:** `lvs`
