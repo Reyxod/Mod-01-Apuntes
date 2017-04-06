@@ -11,7 +11,7 @@ La gestión de volúmenes lógicos o ***logical volum manager (LVM)*** , es una 
 ### Tipologias de gestión volúmenes lógicos:  
 
 * **PV:** Las siglas significan ***Physical volume.*** Es lo que llamariamos la identificación de los discos. A la hora de crear un PV puedes hacerlo tanto con discos normales como con raids.  
-* **Como crear un PV:** `pvcreate/dev/sda`  
+* **Como crear un PV:** `pvcreate /dev/sda`  
 
 * **VG:** Las siglas significan ***Volume group.*** Serian unos discos virtuales. Cuando creas un grupo de volúmenes este coje todos los gigabytes de los dicos que tenga y los utiliza todos, no como algunos raids. Se le pueden añadir o quitar discos en caliente y esta creado de uno o varios LV.  
 * **Como crear un VG:** `vgcreate "nombre que le queramos dar" "Pv: los que queramos añadir"`
@@ -21,3 +21,14 @@ La gestión de volúmenes lógicos o ***logical volum manager (LVM)*** , es una 
 
 ***
 
+### Entorno de prácticas:
+
+* En esta práctica crearemos desde cero para una máquina virtual varios disdcos duros de 200M y con estos haremos tanto volúmenes físicos, grupos de volúmenes y volúmens lógicos. Tambien crearemos y montaremos varios sistemas de ficheros. Y ademas redimensionaremos tanto los volúmenes lógicos como los sistemas de ficheros.  
+
+![Sin titulo](Imagen.png)  
+
+***
+
+### Práctica 1 :  
+
+1. Creamos un PV: `pvcreate /dev/vda`
