@@ -55,8 +55,6 @@ def ganador():
 
 def apuesta():
 	
-	saldo = 100
-	
 	while salir1 == False :
 	
 		print "Tienes este saldo:",saldo
