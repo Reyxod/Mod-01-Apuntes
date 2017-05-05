@@ -11,6 +11,6 @@ while salir == False :
 	
   if cont ==3 :
 		
-    salir=True
+    salir = True
 
   contador= contador + 1
