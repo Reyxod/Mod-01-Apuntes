@@ -48,9 +48,9 @@ for fila in mi_rango(1,5,1):
 		else:
       
       if (( columna == 2 and fila == 4 ) or ( columna == 3 and fila == 3 ) :
-        
-        print "*"
+	  
+	  print "*"
       
       else :
       
-		  	print "-",
+	  print "-",
