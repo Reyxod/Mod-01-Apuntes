@@ -13,4 +13,4 @@ while salir == False :
 		
     salir=True
 
-  contador= contador +1
+  contador= contador + 1
