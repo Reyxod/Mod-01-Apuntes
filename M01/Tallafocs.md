@@ -24,16 +24,29 @@ Actúa sobre la capa de aplicación OSI, puede entender diferentes protocolos y 
 3- Red  
 2- Enlace de datos  
 1- Física  
-
-4. Quines capes té el model TCP/IP? En aquest cas feu una breu descripció de les funcionalitats de cada capa.
-5. A quina capa/capes sol treballar tradicionalment un tallafocs?
+### 4. Quines capes té el model TCP/IP? En aquest cas feu una breu descripció de les funcionalitats de cada capa.
+  + Aplicación: incorpora aplicaciones de red estándar.
+  + Transporte: brinda los datos de enrutamiento, junto con los mecanismos que permiten conocer el estado de la transmisión.
+  + Red: responsable de proporcionar el paquete de datos. 
+  + Física: especifica la forma en la que los datos deben enrutarse, sea cual sea el tipo de red utilizada.
+### 5. A quina capa/capes sol treballar tradicionalment un tallafocs?  
+Un cortafuegos o firewall trabaja desde la capa 3 (Transporte) hasta la capa 4 (Aplicación) del modelo TCP / IP
 # Tallafocs Linux
-1. Busqueu quins són els tradicionals sistemes de tallafocs incorporats en linux i anomeneu-los
-2. Quins dels anteriors tallafocs estan instal.lats al fedora de classe? Com ho comproveu?
-3. Algun dels anteriors tallafocs es troba activat?
-4. Instal.leu el servidor web httpd o nginx i activeu-ne el servei (dnf installl ...  ; systemctl ....). Indiqueu les comandes i comproveu que des d'una altra màquina podeu accedir via web a la vostra IP (digueu-li a un company). Hauria de sortir la plana per defecte.
-5. Activeu el servei firewalld. Indiqueu com ho feu.
-6. Comproveu si ara es pot seguir accedint.
+### 1. Busqueu quins són els tradicionals sistemes de tallafocs incorporats en linux i anomeneu-los
+  + Son el firewalld y el iptables.
+### 2. Quins dels anteriors tallafocs estan instal.lats al fedora de classe? Com ho comproveu?  
+Los dos vienen por defecto instalados en Linux asi que estan en el de clase.
+  + Comprobamos que el firewalld está, ejecutando: systemctl status firewalld.service 
+  + Comprobamos que el iptables está, ejecutando: systemctl status iptables 
+### 3. Algun dels anteriors tallafocs es troba activat?  
+  + Los dos se encuentran inactivos.
+### 4. Instal.leu el servidor web httpd o nginx i activeu-ne el servei (dnf installl ...  ; systemctl ....). Indiqueu les comandes i comproveu que des d'una altra màquina podeu accedir via web a la vostra IP (digueu-li a un company). Hauria de sortir la plana per defecte.
+  + Para instalarlo: dnf install nginx 
+  + Para activar el servicio: systemctl start nginx.service
+### 5. Activeu el servei firewalld. Indiqueu com ho feu.
+  + Lo activamos ejecutando: systemctl start firewalld.service
+### 6. Comproveu si ara es pot seguir accedint.
+Ya no se puede acceder.
 # Win7
 1. Porta aquest SO algun tallafocs incorporat?
 2. Arrenqueu una màquina win7 a isard.escoladeltreball.org
