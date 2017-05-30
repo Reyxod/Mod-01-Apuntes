@@ -48,8 +48,13 @@ Los dos vienen por defecto instalados en Linux asi que estan en el de clase.
 ### 6. Comproveu si ara es pot seguir accedint.
 Ya no se puede acceder.
 # Win7
-1. Porta aquest SO algun tallafocs incorporat?
-2. Arrenqueu una màquina win7 a isard.escoladeltreball.org
-3. Indiqueu com arribar al tallafocs (passos i pantalles)
-4. Es troba activat en aquest windows?
-5. Busqueu un altre tallafocs per windows. Indiqueu la plana web i les prestacions que ens dona. Intenteu que NOMÉS sigui tallafocs.
+### 1. Porta aquest SO algun tallafocs incorporat?  
+El Windows trae por defecto un cortafuegos llamado Firewall de Windows.  
+### 2. Arrenqueu una màquina win7 a isard.escoladeltreball.org
+### 3. Indiqueu com arribar al tallafocs (passos i pantalles)
+1- Abrimos el menú de Inicio  
+2- Abrimos el Panel de Control  
+3- Hacemos click sobre Sistema y Seguridad  
+4- Hacemos click sobre Firewall de Windows  
+### 4. Es troba activat en aquest windows?
+Si, está activado por defecto.  
